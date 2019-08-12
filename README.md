@@ -1,5 +1,4 @@
 # Project-Management-System
-NPM version|https://badge.fury.io/{{programming_language:js\|py}}/{{project_name}}.svg|http://badge.fury.io/{{programming_language:js\|py}}/{{project_name}}
 
 This is BE project management system for storing records BE projects written in Java and MySQL. 
 
