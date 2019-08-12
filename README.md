@@ -25,4 +25,20 @@ Project is created with:
 * Java Servlets
 
 ## Setup
-To run this project, install it locally using npm:
+
+* There is a SQL file named project_management_system_final.sql. Create a database in MySQL with same name as file name and run command.
+```
+source project_management_system_final.sql
+```
+* Download apache tomcat from https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.11/bin/
+* Set $CATALINA_HOME as tomcat working directory.
+* Set $CATALINA_BASE as $CATALINA_HOME/webapps
+* Copy the project to $CATALINA_HOME/webapps directory run command.
+```
+jar -cvf project_management_system.war *
+cd $CATALINA_HOME
+./bin/startup
+```
+* Open browser and type localhost:tomcat_port_number
+* Enter username and password.
+* Select war file of project and start.
