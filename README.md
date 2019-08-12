@@ -1,7 +1,4 @@
 # Project-Management-System
-
-[![slides-badge](https://cdn.rawgit.com/kentcdodds/custom-badges/VERSION/badges/slides.svg)](http://example.com/your-slides)
-
 This is BE project management system for storing records BE projects written in Java and MySQL. 
 
 ## Table of contents
