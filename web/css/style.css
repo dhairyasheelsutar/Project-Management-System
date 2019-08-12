@@ -1,0 +1,26 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+	list-style-type: none;
+}
+
+thead > tr{
+	background: #f8f9fe;
+}
+
+.align-center{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+}
+
+.header-text{
+	font-size: 13px;
+	letter-spacing: 1.3px;
+	color: #f5365c;
+	font-weight: bold;
+	text-transform: uppercase;
+}
